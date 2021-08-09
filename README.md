@@ -30,6 +30,8 @@ These executable tutorials cover the primary computational methods used in Mayer
 #### Files Generated
 
 ```
+Input: mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY.tcrdist3.cs
+Outputs: 
 ├── tutorial_find_metaclonotypes_MIRA_55
     (mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY.tcrdist3.csv)
 │   ├── (all antigen-associated clonotypes) .centers_bkgd_ctlr_1E6.tsv
@@ -38,14 +40,25 @@ These executable tutorials cover the primary computational methods used in Mayer
 │   ├── (html logos of meta-clonotypes) .ranked_centers_bkgd_ctlr_1E6.html
 │   └── (timing to tabulate in each bulk repertoire) .ranked_centers_bkgd_ctlr_1E6.tsv.benchmark_tabulation.tsv
 
-├── tutorial_tabulate_metaclonotypes_MIRA_55
 
+Input: mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY.tcrdist3.csv.ranked_centers_bkgd_ctlr_1E6.tsv
+Outputs:
+├── tutorial_tabulate_metaclonotypes_MIRA_55
+│   ├── 110047437_TCRB.tsv.tcrdist3.v_max.tsv.counts.tsv
+│   ├── 110047542_TCRB.tsv.tcrdist3.v_max.tsv.counts.tsv
+    ... 
+│   ├── KHBR20-00206_TCRB.tsv.tcrdist3.v_max.tsv.counts.tsv
+│   └──(all counts concatenated) .ranked_centers_bkgd_ctlr_1E6_manuscript.tsv.tabulated_counts_concat.tsv
+
+Input: .ranked_centers_bkgd_ctlr_1E6_manuscript.tsv.tabulated_counts_concat.tsv
+Outputs:
 ├── tutorial_regression_MIRA_55 
     (mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY.tcrdist3.csv.ranked_centers_bkgd_ctlr_1E6_manuscript.tsv)
 │   ├── (volcano plots pdf) .tabulated_counts_concat.tsv.beta-binomial-regression.pdf
 │   ├── (volcano plots png) .tabulated_counts_concat.tsv.beta-binomial-regression.png
 │   └── (tabular results) .tabulated_counts_concat.tsv.beta-binomial-regression.tsv
 ```
+
 #### Regression Results as Volcano Plots
 
 ![mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY tcrdist3 csv ranked png_centers_bkgd_ctlr_1E6_manuscript tsv tabulated_counts_concat tsv beta-binomial-regression](https://user-images.githubusercontent.com/46639063/128776168-dc75f23d-e6a9-44d4-845f-97baac478499.png)

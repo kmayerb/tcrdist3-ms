@@ -165,13 +165,13 @@ if __name__ == "__main__":
     
     """ < project_path > is where the counts files will be written, 
     YOU WILL NEED TO SPECIFIY THIS FOR YOUR OWN ENVIRONMENT """    
-    project_path = 'tcrdist3-tutorial/counts_MIRA_55'
+    project_path = 'tutorial_tabulate_metaclonotypes_MIRA_55'
 
     """ < source_path > points to folder where bulk repertoires are contained 
     YOU WILL NEED TO SPECIFIY THIS FOR YOUR OWN ENVIRONMENT, BASED ON WHERE 
     YOU DEPOSITE THE CLEANED BULK DATAFILES
     """
-    source_path = 'fg_data/ncov_tcrs/bulk2/adpt_bulk_r2clean'
+    source_path = '../ncov_tcrs/bulk2/adpt_bulk_r2clean'
     
     """ < meta_data_file >
     Use a well organized metadata file that contains information about bulk filenames. Note
@@ -186,26 +186,28 @@ if __name__ == "__main__":
     assert np.all([os.path.isfile(os.path.join(source_path,f)) for f in df['filename']]), f"Not all files specified in meta-data file {meta_data_file} are present in {source_path}"
     
     """ Method 1: With more computational resources, you can greatly accelerate this process with parmap"""
-    
-    
-    import parmap
-    results = parmap.map(tabulate_metaclonotype, 
-            df['filename'].to_list(),
-            metaclonotype_source_path = '.',
-            metaclonotype_file =  mc_file ,
-            source_path =  source_path  ,
-            ncpus = 1, #  <- Note: set this to 1 CPU if using parmap
-            write = True,
-            project_path = project_path, 
-            pm_pbar=True, 
-            pm_processes=10) # <- Note: set this to total available CPUs
-            
-    df_concat = pd.concat([x[1] for x in results]).reset_index()
-    df_concat['name'] = df_concat['file'].apply(lambda x : x.replace(".tsv.tcrdist3.v_max.tsv",""))
-    df_concat.to_csv(os.path.join(project_path, f"{mc_file}.tabulated_counts_concat.tsv"), sep = "\t", index = False)
+    use_method_1 = True 
+    if use_method_1:
+        import parmap
+        results = parmap.map(tabulate_metaclonotype, 
+                df['filename'].to_list(),
+                metaclonotype_source_path = '.',
+                metaclonotype_file =  mc_file ,
+                source_path =  source_path  ,
+                ncpus = 1, #  <- Note: set this to 1 CPU if using parmap
+                write = True,
+                project_path = project_path, 
+                pm_pbar=True, 
+                pm_processes=10) # <- Note: set this to total available CPUs
+                
+        df_concat = pd.concat([x[1] for x in results]).reset_index()
+        df_concat['name'] = df_concat['file'].apply(lambda x : x.replace(".tsv.tcrdist3.v_max.tsv",""))
+        df_concat.to_csv(os.path.join(project_path, f"{mc_file}.tabulated_counts_concat.tsv"), sep = "\t", index = False)
             
     """ Method 2: Alternatively, if you are running with minimal resources you can tabulate conformant clones 
         in one bulk repertiore at a time. """
+    use_method_2 = False 
+    if use_method_2:
     for i,r in df.iterrows():
         df_join, df_result = tabulate_metaclonotype(
             metaclonotype_source_path = '.',

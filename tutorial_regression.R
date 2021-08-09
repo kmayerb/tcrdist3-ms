@@ -6,7 +6,7 @@
 
 # The input is count data of meta-clonotype conformant sequences per sample.
 metaclonotype_definition_file = 'mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY.tcrdist3.csv.ranked_centers_bkgd_ctlr_1E6_manuscript.tsv'
-tabulated_counts_file = 'mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY.tcrdist3.csv.ranked_centers_bkgd_ctlr_1E6_manuscript.tsv.tabulated_counts_concat.tsv'
+tabulated_counts_file = 'tutorial_tabulate_metaclonotypes_MIRA_55/mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY.tcrdist3.csv.ranked_centers_bkgd_ctlr_1E6_manuscript.tsv.tabulated_counts_concat.tsv'
 metadata_file = 'metadata/2020-10-12-metadata.tsv'
 hmatch1 = "A\\*01"
 project_path = "tutorial_regression_MIRA_55"
