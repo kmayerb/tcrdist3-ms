@@ -14,8 +14,8 @@ The open source Python package [tcrdist3](https://github.com/kmayerb/tcrdist3) h
 
 ### Contents 
 
-Tutorials using tcrdist3 with meta-clonotypes (discovery, tabulation, and beta-binomial counts regression)
-These executable tutorials cover the primary computational methods used in Mayer-Blackwell et al. 2020.  
+These executable tutorials cover the primary computational methods used in Mayer-Blackwell et al. 2020, 
+using tcrdist3 for meta-clonotypes discovery, tabulation, and testing in beta-binomial counts regressions.
 
 1. `tutorial_find_metaclonotypes.py` - define meta-clonotypes from antigen-associated MIRA TCR β-chain data. 
 
