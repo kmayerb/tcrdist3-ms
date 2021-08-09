@@ -208,17 +208,17 @@ if __name__ == "__main__":
         in one bulk repertiore at a time. """
     use_method_2 = False 
     if use_method_2:
-    for i,r in df.iterrows():
-        df_join, df_result = tabulate_metaclonotype(
-            metaclonotype_source_path = '.',
-            metaclonotype_file =  mc_file ,
-            source_path =  r['local_path'],
-            file =  r['filename'],
-            ncpus = 2, # <- Note: set this to total available CPUs
-            write = False,
-            project_path = project_path )
-        outname = os.path.join(project_path, f"{r['file']}.counts.tsv")
-        df_result.reset_index(drop = False).to_csv(outname, sep = "\t", index = False)
+        for i,r in df.iterrows():
+            df_join, df_result = tabulate_metaclonotype(
+                metaclonotype_source_path = '.',
+                metaclonotype_file =  mc_file ,
+                source_path =  r['local_path'],
+                file =  r['filename'],
+                ncpus = 2, # <- Note: set this to total available CPUs
+                write = False,
+                project_path = project_path )
+            outname = os.path.join(project_path, f"{r['file']}.counts.tsv")
+            df_result.reset_index(drop = False).to_csv(outname, sep = "\t", index = False)
 
 
 
