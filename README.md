@@ -4,9 +4,7 @@ TCR meta-clonotypes with tcrdist3
 
 ### Background 
 
-In Mayer-Blacwell et al. 2020, we tested whether meta-clonotypes carry important antigen-specific signals above and beyond individual clonotypes. Do do so, we searched for meta-clonotype conformant TCRS in COVID-19 patients with repertoires collected 0-30 days after diagnosis (Nolan et al. 2020). 
-
-The MIRA55:ORF1ab set of antigen-associated TCRs was chosen for detailed analysis because, among the MIRA sets, it is comprised of CD8+ TCR β-chains activated by a peptide with the strongest evidence of HLA-restriction, primarily by HLA-A*01. We reasoned that we could compare the abundance of meta-clonotype conformant sequences in independent COVID-19 patients with and without the restricting HLA genotype, and that a significant positive association of abundance with the restricting genotype would provide confirmatory evidence of the meta-clonotype’s SARS-CoV-2 antigen specificity. 
+In a manuscript by Mayer-Blacwell et al., 2020, we tested whether meta-clonotypes carry important antigen-specific signals above and beyond individual clonotypes. To do so, we searched for meta-clonotype conformant TCRs in COVID-19 patients with repertoires collected 0-30 days after diagnosis (Nolan et al. 2020). The MIRA55 ORF1ab set of antigen-associated TCRs was chosen for detailed illustrative analysis because, among the MIRA sets, it is comprised of CD8+ TCR β-chains activated by a peptide with the strongest evidence of HLA-restriction, primarily by HLA-A*01. We reasoned that we could compare the abundance of meta-clonotype conformant sequences in an independent cohort of COVID-19 patients with and without the restricting HLA genotype and that a significant positive association of abundance with the restricting genotype would provide confirmatory evidence of the meta-clonotype’s SARS-CoV-2 antigen specificity. 
 
 ### tcrdist3 documentation
 
