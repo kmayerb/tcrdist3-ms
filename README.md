@@ -4,11 +4,11 @@ TCR meta-clonotypes with tcrdist3
 
 ### Background 
 
-In a manuscript by Mayer-Blacwell et al., 2020, we tested whether meta-clonotypes carry important antigen-specific signals above and beyond individual clonotypes. To do so, we searched for meta-clonotype conformant TCRs in COVID-19 patients with repertoires collected 0-30 days after diagnosis (Nolan et al. 2020). The MIRA55 ORF1ab set of antigen-associated TCRs was chosen for detailed illustrative analysis because, among the MIRA sets, it is comprised of CD8+ TCR β-chains activated by a peptide with the strongest evidence of HLA-restriction, primarily by HLA-A*01. We reasoned that we could compare the abundance of meta-clonotype conformant sequences in an independent cohort of COVID-19 patients with and without the restricting HLA genotype and that a significant positive association of abundance with the restricting genotype would provide confirmatory evidence of the meta-clonotype’s SARS-CoV-2 antigen specificity. 
+In a manuscript by Mayer-Blackwell et al., 2020, we tested whether meta-clonotypes carry important antigen-specific signals above and beyond individual clonotypes. To do so, we searched for meta-clonotype conformant TCRs in COVID-19 patients with repertoires collected 0-30 days after diagnosis (Nolan et al. 2020). The MIRA55 ORF1ab set of antigen-associated TCRs was chosen for detailed illustrative analysis because, among the MIRA sets, it is comprised of CD8+ TCR β-chains activated by a peptide with the strongest evidence of HLA-restriction, primarily by HLA-A*01. We reasoned that we could compare the abundance of meta-clonotype conformant sequences in an independent cohort of COVID-19 patients with and without the restricting HLA genotype and that a significant positive association of abundance with the restricting genotype would provide confirmatory evidence of the meta-clonotypes' SARS-CoV-2 antigen specificity. 
 
 ### tcrdist3 documentation
 
-The open source Python package [tcrdist3](https://github.com/kmayerb/tcrdist3) has extensive additional documentation:
+The open-source Python package [tcrdist3](https://github.com/kmayerb/tcrdist3) has extensive additional documentation:
 [https://tcrdist3.readthedocs.io/](https://tcrdist3.readthedocs.io/en/latest/)
 
 
@@ -21,7 +21,7 @@ using tcrdist3 for meta-clonotypes discovery, tabulation, and testing in beta-bi
 
 2. `tutorial_preprocess_bulk_files.py` - clean bulk TCR β-chains repertoire files from [ImmuneCODE-Repertoires-002.tgz](https://clients.adaptivebiotech.com/pub/covid-2020) for use with tcrdist3.
 
-3. `tutorial_tabulate_metaclonotypes.py` - tabulate metaclonotype conformant TCRs sequences in many bulk repertoires
+3. `tutorial_tabulate_metaclonotypes.py` - tabulate meta-clonotype conformant TCRs sequences in many bulk repertoires
 
 4. `tutorial_regressions.R` - beta-binomial regression with corncob (Martin et al. 2020) to find coefficient estimates associated with AGE, SEX, DAYS POST DIAGNOSIS, HLA-A*01
 
