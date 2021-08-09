@@ -19,13 +19,13 @@ The Python package tcrdist3 has extensive additional documentation:
 Tutorials using tcrdist3 with meta-clonotypes (discovery, tabulation, and beta-binomial counts regression)
 These executable tutorials cover the primary computational methods used in Mayer-Blackwell et al. 2020.  
 
-1. tutorial_find_metaclonotypes.py - define meta-clonotypes from antigen-associated MIRA TCR β-chain data. 
+1. `tutorial_find_metaclonotypes.py` - define meta-clonotypes from antigen-associated MIRA TCR β-chain data. 
 
-2. tutorial_preprocess_bulk_files - clean bulk TCR β-chains repertoire files from (ImmuneCODE-Repertoires-002.tgz)[https://clients.adaptivebiotech.com/pub/covid-2020] for use with tcrdist3.
+2. `tutorial_preprocess_bulk_files` - clean bulk TCR β-chains repertoire files from [ImmuneCODE-Repertoires-002.tgz](https://clients.adaptivebiotech.com/pub/covid-2020) for use with tcrdist3.
 
-3. tutorial_tabulate_metaclonotypes.py - tabulate metaclonotype conformant TCRs sequences in many bulk repertoires
+3. `tutorial_tabulate_metaclonotypes.py` - tabulate metaclonotype conformant TCRs sequences in many bulk repertoires
 
-4. tutorial_regressions - beta-binomial regression with corncob (Martin et al. 2020) to find coefficient estimates associated with AGE, SEX, DAYS POST DIAGNOSIS, HLA-A*01
+4. `tutorial_regressions` - beta-binomial regression with corncob (Martin et al. 2020) to find coefficient estimates associated with AGE, SEX, DAYS POST DIAGNOSIS, HLA-A*01
 
 
 ### Data Availability 
