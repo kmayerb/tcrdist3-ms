@@ -31,7 +31,8 @@ These executable tutorials cover the primary computational methods used in Mayer
 #### Files Generated
 
 ```
-├── tutorial_find_metaclonotypes_MIRA_55 (mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY.tcrdist3.csv)
+├── tutorial_find_metaclonotypes_MIRA_55
+    (mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY.tcrdist3.csv)
 │   ├── (all antigen-associated clonotypes) .centers_bkgd_ctlr_1E6.tsv
 │   ├── (synethetic background) .olga100K_brit100K_bkgd.csv.zip
 │   ├── (non-redundant meta-clonotypes) .ranked_centers_bkgd_ctlr_1E6.tsv
@@ -40,7 +41,8 @@ These executable tutorials cover the primary computational methods used in Mayer
 
 ├── tutorial_tabulate_metaclonotypes_MIRA_55
 
-├── tutorial_regression_MIRA_55 (mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY.tcrdist3.csv.ranked_centers_bkgd_ctlr_1E6_manuscript.tsv)
+├── tutorial_regression_MIRA_55 
+    (mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY.tcrdist3.csv.ranked_centers_bkgd_ctlr_1E6_manuscript.tsv)
 │   ├── (volcano plots pdf) .tabulated_counts_concat.tsv.beta-binomial-regression.pdf
 │   ├── (volcano plots png) .tabulated_counts_concat.tsv.beta-binomial-regression.png
 │   └── (tabular results) .tabulated_counts_concat.tsv.beta-binomial-regression.tsv
