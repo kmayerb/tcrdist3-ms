@@ -8,7 +8,7 @@ In a manuscript by Mayer-Blacwell et al., 2020, we tested whether meta-clonotype
 
 ### tcrdist3 documentation
 
-The Python package tcrdist3 has extensive additional documentation:
+The open source Python package [tcrdist3](https://github.com/kmayerb/tcrdist3) has extensive additional documentation:
 [https://tcrdist3.readthedocs.io/](https://tcrdist3.readthedocs.io/en/latest/)
 
 
