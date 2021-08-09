@@ -8,6 +8,11 @@ In Mayer-Blacwell et al. 2020, we tested whether meta-clonotypes carry important
 
 The MIRA55:ORF1ab set of antigen-associated TCRs was chosen for detailed analysis because, among the MIRA sets, it is comprised of CD8+ TCR β-chains activated by a peptide with the strongest evidence of HLA-restriction, primarily by HLA-A*01. We reasoned that we could compare the abundance of meta-clonotype conformant sequences in independent COVID-19 patients with and without the restricting HLA genotype, and that a significant positive association of abundance with the restricting genotype would provide confirmatory evidence of the meta-clonotype’s SARS-CoV-2 antigen specificity. 
 
+### tcrdist3 documentation
+
+The Python package tcrdist3 has extensive additional documentation:
+[https://tcrdist3.readthedocs.io/](https://tcrdist3.readthedocs.io/en/latest/)
+
 
 ### Contents 
 
@@ -25,7 +30,7 @@ These executable tutorials cover the primary computational methods used in Mayer
 
 ### Data Availability 
 
-(ImmuneRACE data)[https://clients.adaptivebiotech.com/pub/covid-2020] is publicly available 
+[ImmuneRACE data](https://clients.adaptivebiotech.com/pub/covid-2020) is publicly available 
 
 Mayer-Blackwell et al. used data found in the following files: 
 * MIRA antigen-associated TCRs : ImmuneCODE-MIRA-Release002.zip - 3.0 MB
