@@ -27,7 +27,6 @@ These executable tutorials cover the primary computational methods used in Mayer
 
 4. `tutorial_regressions.R` - beta-binomial regression with corncob (Martin et al. 2020) to find coefficient estimates associated with AGE, SEX, DAYS POST DIAGNOSIS, HLA-A*01
 
-
 #### Files Generated
 
 ```
@@ -47,6 +46,9 @@ These executable tutorials cover the primary computational methods used in Mayer
 │   ├── (volcano plots png) .tabulated_counts_concat.tsv.beta-binomial-regression.png
 │   └── (tabular results) .tabulated_counts_concat.tsv.beta-binomial-regression.tsv
 ```
+#### Regression Results as Volcano Plots
+
+![mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY tcrdist3 csv ranked png_centers_bkgd_ctlr_1E6_manuscript tsv tabulated_counts_concat tsv beta-binomial-regression](https://user-images.githubusercontent.com/46639063/128776168-dc75f23d-e6a9-44d4-845f-97baac478499.png)
 
 
 ### Data Availability 
