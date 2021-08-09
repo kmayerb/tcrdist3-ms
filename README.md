@@ -36,9 +36,6 @@ Mayer-Blackwell et al. used data found in the following files:
 * MIRA antigen-associated TCRs : ImmuneCODE-MIRA-Release002.zip - 3.0 MB
 * Bulk repertoires: ImmuneCODE-Repertoires-002.tgz - 24 GB
 
-### Acknowledgments
-
-This work was funded by NIH NIAID R01 AI136514-03 (PI Thomas) and ALSAC at St. Jude. The authors thank M. Pogorelyy and A. Minervina for extensive feedback on the manuscript. Scientific Computing Infrastructure at Fred Hutchinson Cancer Research Center was funded by ORIP grant S10OD028685.
 
 ### References 
 
@@ -47,4 +44,5 @@ Mayer-Blackwell, K., Schattgen, S., Cohen-Lavi, L., Crawford, J. C., Souquette, 
 Martin, B. D., Witten, D., & Willis, A. D. (2020). Modeling microbial abundances and dysbiosis with beta-binomial regression. The annals of applied statistics, 14(1), 94.
 
 Nolan, S., Vignali, M., Klinger, M., Dines, J. N., Kaplan, I. M., Svejnoha, E., ... & Robins, H. S. (2020). A large-scale database of T-cell receptor beta (TCRβ) sequences and binding associations from natural and synthetic exposure to SARS-CoV-2. Research square.
+
 
