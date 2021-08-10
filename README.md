@@ -33,7 +33,7 @@ Outputs:
 ├── tutorial_find_metaclonotypes_MIRA_55
     (mira_epitope_55_524_ALRKVPTDNYITTY_KVPTDNYITTY.tcrdist3.csv)
 │   ├── (all antigen-associated clonotypes) .centers_bkgd_ctlr_1E6.tsv
-│   ├── (synethetic background) .olga100K_brit100K_bkgd.csv.zip
+│   ├── (synthetic background) .olga100K_brit100K_bkgd.csv.zip
 │   ├── (non-redundant meta-clonotypes) .ranked_centers_bkgd_ctlr_1E6.tsv
 │   ├── (html logos of meta-clonotypes) .ranked_centers_bkgd_ctlr_1E6.html
 │   └── (timing to tabulate in each bulk repertoire) .ranked_centers_bkgd_ctlr_1E6.tsv.benchmark_tabulation.tsv
